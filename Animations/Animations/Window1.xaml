@@ -1,0 +1,22 @@
+﻿<Window x:Class="Animations.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Animations"
+        mc:Ignorable="d"
+        Title="Window1" Height="504.232" Width="564.01">
+    <Grid Name="grid1">
+        <Button Name="Button" Canvas.Top="10" Canvas.Right="10" Click="Button_Click" Margin="13,0,461,436"  >Hum</Button>
+        <Button Name="Button2" Margin="100,0,362,438" Click="Button2_Click" >Banana</Button>
+        <Button Name="Button3" Margin="200,0,262,438" Click="Button3_Click" >Laranja</Button>
+        <Button Name="Button4" Margin="300,0,162,438" Click="Button4_Click" >Anima</Button>
+        <Canvas Name="canvas1" Margin="301,74,0,168" >
+            <TextBlock Foreground="Yellow" FontSize="48" >Banana
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="LightGreen" ShadowDepth="0" Direction="0" BlurRadius="25"  />
+                </TextBlock.Effect>
+            </TextBlock>
+        </Canvas>
+    </Grid>
+</Window>
